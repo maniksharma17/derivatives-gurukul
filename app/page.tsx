@@ -691,6 +691,7 @@ const CTAOptionsSection = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="mt-12"
         >
+          <Link href={BASE_URL}>
           <Button
             size="lg"
             className="px-10 py-6 text-lg font-bold rounded-full bg-yellow-300 text-black 
@@ -698,6 +699,7 @@ const CTAOptionsSection = () => {
           >
             Secure Your Spot Now 🚀
           </Button>
+          </Link>
         </motion.div>
       </div>
     </section>
