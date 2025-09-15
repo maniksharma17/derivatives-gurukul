@@ -361,7 +361,7 @@ const ImageScroller = () => {
           transition={{
             repeat: Infinity,
             ease: "linear",
-            duration: 20, // speed of scrolling
+            duration: 10, // speed of scrolling
           }}
         >
           {images.concat(images).map((src, i) => (
@@ -401,7 +401,7 @@ const ImageScroller2 = () => {
           transition={{
             repeat: Infinity,
             ease: "linear",
-            duration: 20, // speed of scrolling
+            duration: 10, // speed of scrolling
           }}
         >
           {images2.concat(images).map((src, i) => (
