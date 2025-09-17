@@ -124,7 +124,7 @@ const astrologyBenefits = [
     icon: "💡",
     title: "Unique Market Edge",
     description:
-      "Most traders ignore astrology — giving you an advantage they don't see coming.",
+      "Most traders ignore astrology — giving you an advantage they don&apos;t see coming.",
   },
 ];
 
@@ -191,7 +191,7 @@ const TestimonialCard = ({ testimonial }: any) => (
         ))}
       </div>
       <p className="text-stone-100 mb-6 flex-grow italic">
-        "{testimonial.quote}"
+        &quot;{testimonial.quote}&quot;
       </p>
       <div className="flex items-center">
         <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4">
@@ -527,7 +527,7 @@ const WebinarCard = ({ i }: any) => (
   </motion.div>
 );
 
-const banners = ["/images/b1.jpeg", "/images/b2.jpeg", "/images/b3.jpeg"];
+const banners = ["/images/b1.jpeg", "/images/b2.png", "/images/b3.png"];
 
 const ImageGridSection = () => (
   <section className="min-h-screen grid grid-cols-1 md:grid-cols-3">
@@ -602,7 +602,7 @@ const TestimonialsSection = () => (
     <div className="container mx-auto px-4">
       <motion.div {...fadeInUp} className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-stone-200 bg-clip-text text-transparent">
-          Here's what our Students say:
+          Here&apos;s what our Students say:
         </h2>
       </motion.div>
 
@@ -645,7 +645,7 @@ const CTAOptionsSection = () => {
           className="text-lg md:text-xl text-stone-100 max-w-2xl mx-auto"
         >
           You can act now, secure your spot and discover the proven roadmap
-          that's transformed thousands of traders' results just like you!
+          that&apos;s transformed thousands of traders&apos; results just like you!
         </motion.p>
 
         {/* Options */}
@@ -661,7 +661,7 @@ const CTAOptionsSection = () => {
               ❌ OPTION 1
             </h3>
             <p className="text-red-100">
-              You can close this page and keep doing what you're doing and end
+              You can close this page and keep doing what you&apos;re doing and end
               up in the exact same place you are now and keep making losses.
             </p>
           </motion.div>
@@ -762,7 +762,7 @@ const MentorSection = () => (
         {/* Description */}
         <p className="text-lg text-stone-100 mb-8 max-w-2xl mx-auto">
           With over 12 years of experience, Mr. Vikas Jain is regarded as the
-          industry's guru in financial astrology. He is the visionary founder of
+          industry&apos;s guru in financial astrology. He is the visionary founder of
           <span className="text-yellow-400 font-semibold">
             {" "}
             Derivatives Gurukul{" "}
@@ -804,7 +804,7 @@ const FinalCTASection = () => (
     <div className="container mx-auto px-4">
       <motion.div {...fadeInUp} className="max-w-3xl mx-auto">
         <h2 className="text-4xl md:text-6xl font-bold mb-8 bg-gradient-to-r from-stone-300 via-white to-stone-200 bg-clip-text text-transparent">
-          Don't Miss This Cosmic Opportunity
+          Don&apos;t Miss This Cosmic Opportunity
         </h2>
         <p className="text-xl text-stone-100 mb-12">
           Join thousands of successful traders who have transformed their
